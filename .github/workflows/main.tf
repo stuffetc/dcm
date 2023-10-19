@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "ajoydevops"
+
+    workspaces {
+      name = "gh-actions-demo"
+    }
+  }  
   required_providers {
     snowflake = {
       source  = "chanzuckerberg/snowflake"
