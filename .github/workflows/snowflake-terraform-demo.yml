@@ -9,6 +9,9 @@ jobs:
   snowflake-terraform-demo:
     name: "Snowflake Terraform Demo Job"
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./app    
     steps:
       - name: Checkout
         uses: actions/checkout@v2
