@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "my-organization-name"
+    organization = "ajoydevops"
 
     workspaces {
       name = "gh-actions-demo"
