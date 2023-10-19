@@ -20,7 +20,7 @@ jobs:
   
       - name: Display the path
         shell: bash
-        run: echo $PATH          
+        run: pwd         
 
       - name: Terraform Format
         id: fmt
